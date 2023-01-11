@@ -20,7 +20,7 @@ function setData() {
       "Content-Type": "application/json"
     },
     redirect: "follow",
-    body: JSON.stringify({ name: "Announcement 3" })
+    body: JSON.stringify({"title":"Generate your eRCS (LOA) in a few click!","date":"2022-12-17T16:00:00.000Z","body":"","image":"https://drive.google.com/file/d/1J2YIZgLCVQ3h4amrw34gsDEp6IuFJ1ac/view?usp=share_link","createdby":"Admin"})
   })
 
   console.log("setData")
